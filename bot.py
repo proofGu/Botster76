@@ -7,8 +7,8 @@ from telebot import types
 
 # from set import BOT_TOKEN, S
 
-TOKEN = BOT_TOKEN
-bot = telebot.TeleBot(TOKEN)
+# TOKEN = BOT_TOKEN
+bot = telebot.TeleBot(BOT_TOKEN)
 
 smiles = ['🧐', '🤓', '🙂', '😎', '😉', '😊']
 invite_s = ["Ооо!!! \nТебя заждались.. \nвот координаты тебе передать просили:",
