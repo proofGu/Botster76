@@ -5,7 +5,7 @@ import telebot
 from telebot import types
 # from telebot.types import Message
 
-from set import BOT_TOKEN, S
+# from set import BOT_TOKEN, S
 
 TOKEN = BOT_TOKEN
 bot = telebot.TeleBot(TOKEN)
