@@ -1,4 +1,5 @@
 import random
+import os
 from datetime import datetime
 
 import telebot
@@ -7,8 +8,10 @@ from telebot import types
 
 # from set import BOT_TOKEN, S
 
-# TOKEN = BOT_TOKEN
-bot = telebot.TeleBot(BOT_TOKEN)
+TOKEN = os.environ.get('BOT_TOKEN')
+S = os.environ.get('S')
+
+bot = telebot.TeleBot(TOKEN)
 
 smiles = ['🧐', '🤓', '🙂', '😎', '😉', '😊']
 invite_s = ["Ооо!!! \nТебя заждались.. \nвот координаты тебе передать просили:",
